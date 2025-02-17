@@ -1,0 +1,9 @@
+#! /usr/bin/gnuplot -persist
+set xlabel "X" 
+set ylabel "Y"
+
+set grid
+set yrange [0:5]
+set xrange[0:1]
+set title "Method graph" font "Helvetica Bold, 20"
+plot "dataux.txt" with lines lw 3,
