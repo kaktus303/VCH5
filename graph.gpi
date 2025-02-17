@@ -1,0 +1,10 @@
+#! /usr/bin/gnuplot -persist
+set xlabel "X" 
+set ylabel "Y"
+set zlabel "Z"
+set grid
+set yrange [-4:4]
+set xrange[-5:15]
+set zrange[-5:15]
+set title "Method graph" font "Helvetica Bold, 20"
+splot "data.txt" with lines lw 3,
